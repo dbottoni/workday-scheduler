@@ -6,4 +6,7 @@ function insertDate(date) {
 
 const currentDay = document.querySelector('#currentDay');
 currentDay.appendChild(insertDate(new Date()));
+//currentDay.format('MMMM');
+
+
 
