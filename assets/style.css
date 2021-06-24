@@ -71,14 +71,14 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-.future {
+.past {
   background-color: grey;
 }
 
-.past {
+.present {
   background-color: lightcoral;
 }
 
-.present {
-  background-color:lightcyan;
+.future {
+  background-color: royalblue;
 }
