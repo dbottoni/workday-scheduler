@@ -28,10 +28,47 @@
         <h1 class="display-3">Work Day Scheduler</h1>
         <p class="lead">A simple calendar app for scheduling your work day</p>
         <p id="currentDay" class="lead" type="date"> </p>
+        <p id="timeNow"></p>
       </header>
       <main class="task-container">
         <!-- Timeblocks go here -->
-        <div class="row">
+        <div id="hour9" class="row time-block">
+          <div class="col-md-1 hour">
+            9AM
+          </div>
+          <textarea id = "9morning" class="col-md-10 description"></textarea>
+          <button type="button" class="btn saveBtn col-md-1"><span class="fas fa-save"></span></button>
+        </div>
+        <div id="hour10" class="row time-block">
+          <div class="col-md-1 hour">
+            10AM
+          </div>
+          <textarea id ="10morning" class="col-md-10 description"></textarea>
+          <button type="button" class="btn saveBtn col-md-1"><span class="fas fa-save"></span></button>
+        </div>
+        <div id="hour11" class="row time-block">
+          <div class="col-md-1 hour">
+            11am
+          </div>
+          <textarea id ="11morning" class="col-md-10 description"></textarea>
+          <button type="button" class="btn saveBtn col-md-1"><span class="fas fa-save"></span></button>
+        </div>
+      
+        <div id="hour14" class="row time-block">
+          <div class="col-md-1 hour">
+            2PM
+          </div>
+          <textarea id ="2afternoon" class="col-md-10 description"></textarea>
+          <button type="button" class="btn saveBtn col-md-1"><span class="fas fa-save"></span></button>
+        </div>
+        <div id="hour15" class="row time-block">
+          <div class="col-md-1 hour">
+            3PM
+          </div>
+          <textarea id="3afternoon" class="col-md-10 description"></textarea>
+          <button type="button" class="btn saveBtn col-md-1"><span class="fas fa-save"></span></button>
+        </div>
+        <!-- <div class="row">
           <div class="hour col-2">8am</div>
           <div class="hour col-8">Blank</div>
           <div class="hour col-2">Check off</div>
@@ -81,7 +118,7 @@
           <div class="hour col-2">5pm</div>
           <div class="hour col-8">Blank</div>
           <div class="hour col-2">Check off</div>
-        </div>
+        </div> -->
       </main>
 </div>
 
